@@ -11,7 +11,9 @@
 	<description>myapps cloud parent</description>
 
 	<modules>
-		<module>myapps-eureka-server</module> 
+		<module>myapps-eureka-server</module>
+		<module>myapps-service-consumer</module>
+		<module>myapps-service-provider</module>
     </modules>
 
 	<parent>
@@ -28,6 +30,13 @@
 		<spring-cloud.version>Finchley.SR1</spring-cloud.version>
 	</properties>
 
+	<dependencies>
+		<dependency>
+	       <groupId>org.springframework.boot</groupId>
+	       <artifactId>spring-boot-starter-web</artifactId>
+	   </dependency>
+	</dependencies>
+	
 	<build>
 		<plugins>
 			<plugin>

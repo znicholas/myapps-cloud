@@ -9,16 +9,16 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	
-	<artifactId>myapps-eureka-server</artifactId>	
+	<artifactId>myapps-service-consumer</artifactId>	
 	<packaging>jar</packaging>
 
-	<name>myapps-eureka-server</name>
-	<description>myapps eureka server</description>
+	<name>myapps-service-consumer</name>
+	<description>myapps service consumer</description>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 
 		<dependency>
