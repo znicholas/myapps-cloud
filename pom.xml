@@ -14,6 +14,7 @@
 		<module>myapps-eureka-server</module>
 		<module>myapps-service-consumer</module>
 		<module>myapps-service-provider</module>
+		<module>myapps-config-server</module>
     </modules>
 
 	<parent>
